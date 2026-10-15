@@ -12,11 +12,11 @@ from flask import Flask
 
 # ==================== CONFIG ====================
 TOKEN = os.getenv("DISCORD_TOKEN", "").strip()
-ALLOWED_GUILD_ID = int(os.getenv("ALLOWED_GUILD_ID", "1559831974162473050"))
-ADMIN_CHANNEL_ID = int(os.getenv("ADMIN_CHANNEL_ID", "1559826100153090080"))
+ALLOWED_GUILD_ID = int(os.getenv("ALLOWED_GUILD_ID", "1559826100153090080"))
+ADMIN_CHANNEL_ID = int(os.getenv("ADMIN_CHANNEL_ID", "1559831974162473050"))
 # Optional separate alert channels. If blank/0, alerts fall back to ADMIN_CHANNEL_ID.
-EXPIRE_ALERT_CHANNEL_ID = int(os.getenv("EXPIRE_ALERT_CHANNEL_ID", "0") or "0")
-UPGRADE_ALERT_CHANNEL_ID = int(os.getenv("UPGRADE_ALERT_CHANNEL_ID", "0") or "0")
+EXPIRE_ALERT_CHANNEL_ID = int(os.getenv("1560197696717856808"))
+UPGRADE_ALERT_CHANNEL_ID = int(os.getenv("1560197844902744145"))
 DB_FILE = os.getenv("DB_FILE", "database.json")
 PREFIX = "$"
 PLAN_DAYS = {2: 7, 4: 14, 8: 23, 12: 34, 16: 60, 24: 365}
