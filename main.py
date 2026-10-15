@@ -13,8 +13,8 @@ from flask import Flask
 # ---------- CONFIG ----------
 TOKEN = os.getenv("DISCORD_TOKEN", "").strip()
 # These defaults follow the IDs from your corrected setup. You can override them in Render Environment.
-ALLOWED_GUILD_ID = int(os.getenv("ALLOWED_GUILD_ID", "1559831974162473050"))
-ADMIN_CHANNEL_ID = int(os.getenv("ADMIN_CHANNEL_ID", "1559826100153090080"))
+ALLOWED_GUILD_ID = int(os.getenv("ALLOWED_GUILD_ID", "1559826100153090080"))
+ADMIN_CHANNEL_ID = int(os.getenv("ADMIN_CHANNEL_ID", "1559831974162473050"))
 DB_FILE = os.getenv("DB_FILE", "database.json")
 PREFIX = "$"
 
